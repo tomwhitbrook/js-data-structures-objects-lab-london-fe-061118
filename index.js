@@ -26,4 +26,8 @@ function deleteFromDriverByKey(driver, Object, key) {
   let cloneDriverTwo = {...driver}
   
   cloneDriverTwo = Object.assign({}, key)
+  
+  delete cloneDriverTwo.key
+  
+  return cloneDriverTwo
 }
