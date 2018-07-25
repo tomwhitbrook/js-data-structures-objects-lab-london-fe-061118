@@ -25,5 +25,5 @@ function deleteFromDriverByKey(driver, Object, key) {
   
   let cloneDriverTwo = {...driver}
   
-  cloneDriverTwo
+  cloneDriverTwo = 
 }
